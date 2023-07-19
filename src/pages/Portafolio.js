@@ -1,5 +1,5 @@
 import React from 'react'
-import { FcBriefcase } from "react-icons/fc";
+
 
 export default function Portafolio() {
   return (

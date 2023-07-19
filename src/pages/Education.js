@@ -25,7 +25,7 @@ export default function Education() {
                   title="Valencia College"
                   year="December 2022 - Apr 2022"
                   role="Intensive English Program (IEP) Student"
-                  description="The Intensive English Program (IEP) is accredited by the Commission on English Language Program Accreditation (CEA) which is recognized by the U.S. Secretary of Education"
+                  description="The Intensive English Program (IEP) is accredited by the Commission on English Language Program Accreditation."
                   link="https://valenciacollege.edu/academics/continuing-education/intensive-english-program/program-description.php"
                 />
               </div>

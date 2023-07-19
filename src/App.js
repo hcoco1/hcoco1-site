@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+
 import {
   RouterProvider,
   createBrowserRouter,
@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Layout from "./components/Layout"
 import Blog from "./pages/Blog";
-import Gallery from "./pages/Gallery";
+
 import Home from "./pages/Home";
 import Portafolio from "./pages/Portafolio";
 import ResumeLayout from "./components/ResumeLayout";
@@ -74,11 +74,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     //errorElement={<Error />}
     //loader={vansLoader}
   />
-  <Route 
-    path="gallery" 
-    element={<Gallery />} 
-    //loader={vanDetailLoader}
-  />
+
   </Route>
 ))
 
