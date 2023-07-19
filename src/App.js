@@ -1,25 +1,91 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route
+} from "react-router-dom";
+import Layout from "./components/Layout"
+import Blog from "./pages/Blog";
+import Gallery from "./pages/Gallery";
+import Home from "./pages/Home";
+import Portafolio from "./pages/Portafolio";
+import ResumeLayout from "./components/ResumeLayout";
+import Experience from "./pages/Experience";
+import Education from "./pages/Education";
+import Skills from "./pages/Skills";
+import Interest from "./pages/Interest";
+
+
+
+const router = createBrowserRouter(createRoutesFromElements(
+
+  <Route path="/" element={<Layout />}>
+
+  <Route
+   index 
+   element={<Home />} 
+   />
+
+  <Route path="resume" element={<ResumeLayout />}>
+
+      <Route
+        index
+        element={<Experience/>}
+        //loader={async () => await requireAuth()}
+      />
+      <Route
+        path="education"
+        element={<Education />}
+        //loader={async () => await requireAuth()}
+      />
+      <Route
+        path="skills"
+        element={<Skills />}
+        //loader={async () => await requireAuth()}
+      />
+      <Route
+        path="interest"
+        element={<Interest />}
+        //loader={hostVansLoader}
+      />
+      </Route>
+
+
+
+
+
+
+
+
+
+
+
+  <Route
+    path="blog"
+    element={<Blog />}
+    //loader={loginLoader}
+    //action={loginAction}
+  />
+  <Route
+    path="portafolio"
+    element={<Portafolio />}
+    //errorElement={<Error />}
+    //loader={vansLoader}
+  />
+  <Route 
+    path="gallery" 
+    element={<Gallery />} 
+    //loader={vanDetailLoader}
+  />
+  </Route>
+))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
 export default App;
