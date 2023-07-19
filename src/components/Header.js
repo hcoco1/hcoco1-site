@@ -19,6 +19,7 @@ export default function Header() {
                         to="/"
                         style={({ isActive }) => isActive ? activeStyles : null}
                         end
+                        className="navLinks"
                     >
                         Home
                     </NavLink>

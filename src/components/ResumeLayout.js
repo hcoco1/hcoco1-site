@@ -6,7 +6,7 @@ export default function ResumeLayout() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "none",
-        backgroundColor: "var(--bs-happy)",
+        backgroundColor: "var(--bs-teal)",
         borderRadius: 10,
         padding: 5
     }
@@ -19,6 +19,7 @@ export default function ResumeLayout() {
                         to="."
                         end
                         style={({ isActive }) => isActive ? activeStyles : null}
+                        className="resumeNavLinks"
                     >
                         Experience
                     </NavLink>
@@ -28,6 +29,7 @@ export default function ResumeLayout() {
                     <NavLink
                         to="education"
                         style={({ isActive }) => isActive ? activeStyles : null}
+                        className="resumeNavLinks"
                     >
                         Education
                     </NavLink>
@@ -36,6 +38,7 @@ export default function ResumeLayout() {
                     <NavLink
                         to="skills"
                         style={({ isActive }) => isActive ? activeStyles : null}
+                        className="resumeNavLinks"
                     >
                         Skills
                     </NavLink>
@@ -44,6 +47,7 @@ export default function ResumeLayout() {
                     <NavLink
                         to="interest"
                         style={({ isActive }) => isActive ? activeStyles : null}
+                        className="resumeNavLinks"
                     >
                         Interest
                     </NavLink>

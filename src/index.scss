@@ -131,11 +131,7 @@ body {
   font-family: var(--bs-font-sans-serif);
 }
 
-.site-wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .navContainer {
   background-color: var(--orange1);
@@ -143,7 +139,7 @@ body {
 
 .resumeNavContainer {
 
-  margin-bottom: 5%;
+  margin-bottom: 0%;
  
 
  
@@ -173,6 +169,13 @@ body {
   width: 80%;
   margin-top:3% ;
   margin-bottom:3% ;
+}
+
+.social {
+  margin-top: 0.5em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  padding: 0.5em;
 }
 
 

@@ -59,13 +59,13 @@ export default function Home() {
           </MDBCardText>
       
         </MDBCardBody>
-        <MDBCardFooter className='text-muted'><small className='text-muted'>Last updated 3 mins ago</small></MDBCardFooter>
+        
       </MDBCard>
   
       <MDBCard alignment='center'>
-      <MDBCardHeader>Social Media Links</MDBCardHeader>
+      
       <MDBCardBody>
-        <MDBRow className="justify-content-center mb-4">
+        <MDBRow className="justify-content-center mb-4 social" >
           <MDBCol size="auto">
             <a className="social-icon" href="https://www.linkedin.com/in/arias-ivan-hcoco1/" aria-label='linkedin' target="blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin-in fa-2xl"></i>
@@ -88,7 +88,7 @@ export default function Home() {
           </MDBCol>
         </MDBRow>
       </MDBCardBody>
-      <MDBCardFooter className='text-muted'><small className='text-muted'> </small></MDBCardFooter>
+      <MDBCardFooter className='text-muted'>hcoco1 © 2023<small className='text-muted'> </small></MDBCardFooter>
     </MDBCard>
     </div>
 
