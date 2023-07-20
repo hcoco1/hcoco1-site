@@ -41,7 +41,7 @@ export default function Experience() {
                   role="Sedimentologist & Stratigrapher"
                   description="Oil and Gas Project Management with strict adherence to deadlines, Geostatistical Modeling,
                   and GIS-based Thematic Mapping."
-                  link="https://ged.com/"
+                  link="http://www.pdvsa.com/index.php?lang=en"
                 />
               </div>
             </div>
