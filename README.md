@@ -19,3 +19,10 @@ I'm actively working on this site, but it is ready to be posted!!
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>  
+
+
+### ISSUES:
+
+** AT THE BREAKPOINT OF 1200 PX SOMETHING HAPPENED AND THE CARDS MOVE TO THE EDGE.
+** THE NESTED MENU HAS THIS ISSUE.
+** BOOTSTRAP CLASSES ARE USED IN THESE COMPONENTS. CHECK BOOTSTRAP DOCS.

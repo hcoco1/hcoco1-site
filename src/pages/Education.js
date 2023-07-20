@@ -6,7 +6,7 @@ import MultiCard from '../components/MultiCard';
 
 export default function Education() {
   return (
-    <Container fluid>
+    <Container>
       <Row>
         <Col>
           <div className="container">

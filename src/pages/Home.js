@@ -82,7 +82,7 @@ export default function Home() {
             </a>
           </MDBCol>
           <MDBCol size="auto">
-            <a className="social-icon" href="https://codepen.io/ivan-arias-de-lima" aria-label='codepen' target="_blank" rel="noopener noreferrer">
+            <a className="social-icon" href="https://codesandbox.io/u/hcoco1" aria-label='codesandbox' target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-codepen fa-2xl" style={{ color: 'black' }}></i>
             </a>
           </MDBCol>
