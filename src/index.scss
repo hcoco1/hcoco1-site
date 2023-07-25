@@ -2,7 +2,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 /*Import Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 /*CSS Variable declaration*/
 
@@ -10,15 +10,15 @@
   /*Named scaled color palettes */
   --red: #ff6f69;
   --beige: #ffeead;
-  --yellow:  #ffcc5c;
-  --orange: #F060D6;
-  --red: #BB532E;
-  --blue: #4C9FEB;
+  --yellow: #ffcc5c;
+  --orange: #f060d6;
+  --red: #bb532e;
+  --blue: #4c9feb;
   --gray-1: #eee;
   --gray-2: #ccc;
   --gray-3: #555;
-  --orange1: rgb(189, 93, 56);
-  --orange2:#dbc585;
+  --orange1: #d98d30;
+  --orange2: #dbc585;
   /*Semantic Named Colors*/
   --success: #28a745;
   --info: #17a2b8;
@@ -45,40 +45,44 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #78C1F3;
-  --bs-secondary: #9BE8D8;
+  --bs-primary: #78c1f3;
+  --bs-secondary: #9be8d8;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-happy: #F8FDCF;
+  --bs-happy: #f8fdcf;
+  --bs-nature: #ebeae8;
+  --bs-nature2: #cef2f2;
   /*Fonts*/
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
   /*Gradient*/
   --bs-gradient: linear-gradient(var(--angle), #235ad1, #23d1a8);
-
 }
 
 /* our base color, with one tint, and one shade - body and typogaphry is generally the base colour */
-$clr-base:    #666;
+$clr-base: #666;
 $clr-base-lt: #999;
 $clr-base-dk: #333;
 
 /* primary brand color - skyblue - with shades and tints via Sass functions */
-$clr-primary:     skyblue;
-$clr-primary-lt:  lighten($clr-primary, 5%);
+$clr-primary: skyblue;
+$clr-primary-lt: lighten($clr-primary, 5%);
 $clr-primary-ltr: lighten($clr-primary, 10%);
-$clr-primary-dk:  darken($clr-primary, 5%);
+$clr-primary-dk: darken($clr-primary, 5%);
 $clr-primary-dkr: darken($clr-primary, 10%);
 
 /* secondary brand color - hotpink - with shades and tints via Sass functions */
-$clr-secondary:     hotpink;
-$clr-secondary-lt:  lighten($clr-secondary, 5%);
+$clr-secondary: hotpink;
+$clr-secondary-lt: lighten($clr-secondary, 5%);
 $clr-secondary-ltr: lighten($clr-secondary, 10%);
-$clr-secondary-dk:  darken($clr-secondary, 5%);
+$clr-secondary-dk: darken($clr-secondary, 5%);
 $clr-secondary-dkr: darken($clr-secondary, 10%);
 
 /* neutrals */
@@ -104,21 +108,38 @@ $fs-h6: 18px;
 /* smaller than heading font sizes */
 $fs-milli: 14px;
 $fs-micro: 10px;
-$fs-nano:  8px;
+$fs-nano: 8px;
 
-h1 { font-size: $fs-h1;}
-h2 { font-size: $fs-h2;}
-h3 { font-size: $fs-h3;}
-h4 { font-size: $fs-h4;}
-h5 { font-size: $fs-h5;}
-h6 { font-size: $fs-h6;}
-p  { font-size: $fs-milli;}
+h1 {
+  font-size: $fs-h1;
+}
+h2 {
+  font-size: $fs-h2;
+}
+h3 {
+  font-size: $fs-h3;
+}
+h4 {
+  font-size: $fs-h4;
+}
+h5 {
+  font-size: $fs-h5;
+}
+h6 {
+  font-size: $fs-h6;
+}
+p {
+  font-size: $fs-milli;
+}
 
-.title     { font-size: $fs-h1;}
-.sub-title { font-size: $fs-h3;}
+.title {
+  font-size: $fs-h1;
+}
+.sub-title {
+  font-size: $fs-h3;
+}
 
 /* || General styles */
-
 
 * {
   box-sizing: border-box;
@@ -126,56 +147,58 @@ p  { font-size: $fs-milli;}
   padding: 0;
 }
 
-
-html { background-color: var(--gray-2); } 
-
-
-
+html {
+  background-color: var(--gray-2);
+}
 
 .navContainer {
   background-color: var(--orange1);
 }
 
 .resumeNavContainer {
-
   margin-bottom: 0%;
- 
-
- 
- 
 }
 
 .navLinks {
-
   color: var(--bs-gray-dark);
   font-family: var(--bs-font-sans-serif);
   font-size: $fs-h6;
   text-decoration: none;
-  padding: 2% ;
+  padding: 2%;
 }
 
 .resumeNavLinks {
-
   color: var(--bs-gray-dark);
   font-family: var(--bs-font-sans-serif);
   font-size: $fs-milli;
   text-decoration: none;
-  padding: 2% ;
+  padding: 2%;
 }
 
 .rounded-circle {
   border-radius: 50%;
   width: 80%;
-  margin-top:3% ;
-  margin-bottom:3% ;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .social {
-  margin-top: 0.5em;
-  margin-left: 0.7em;
-  margin-right: 0.7em;
-  padding: 0.5em;
+display:flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
 }
-
-
-
+.auto {
+flex:1;
+justify-content: center;
+align-items: center;
+justify-items: center;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

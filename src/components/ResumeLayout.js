@@ -7,7 +7,7 @@ export default function ResumeLayout() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "none",
-        backgroundColor: "var(--bs-cyan)",
+        backgroundColor: "var(--bs-nature2)",
         borderRadius: 10,
         padding: 5
     }
@@ -16,6 +16,7 @@ export default function ResumeLayout() {
         <>
 
             <Nav className="justify-content-center " activeKey="/home">
+
                 <div className="resumeNavLinks">
                     <NavLink
                         to="."
@@ -23,9 +24,22 @@ export default function ResumeLayout() {
                         style={({ isActive }) => isActive ? activeStyles : null}
                         className="resumeNavLinks"
                     >
+                        About
+                    </NavLink>
+
+                    </div>
+                    <div className="resumeNavLinks">
+
+                            <NavLink
+                        to="experience"
+                        style={({ isActive }) => isActive ? activeStyles : null}
+                        className="resumeNavLinks"
+                    >
                         Experience
                     </NavLink>
-                </div>
+                    </div>
+                
+              
 
                 <div className="resumeNavLinks">
                     <NavLink

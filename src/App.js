@@ -16,6 +16,7 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Interest from "./pages/Interest";
+import About from "./pages/About";
 
 
 
@@ -23,34 +24,40 @@ const router = createBrowserRouter(createRoutesFromElements(
 
   <Route path="/" element={<Layout />}>
 
-  <Route
-   index 
-   element={<Home />} 
-   />
+    <Route
+      index
+      element={<Home />}
+    />
 
-  <Route path="resume" element={<ResumeLayout />}>
-
+    <Route path="resume" element={<ResumeLayout />}>
+      
       <Route
         index
-        element={<Experience/>}
-        //loader={async () => await requireAuth()}
+        element={<About />}
+      //loader={async () => await requireAuth()}
+      />
+
+      <Route
+        path="experience"
+        element={<Experience />}
+      //loader={async () => await requireAuth()}
       />
       <Route
         path="education"
         element={<Education />}
-        //loader={async () => await requireAuth()}
+      //loader={async () => await requireAuth()}
       />
       <Route
         path="skills"
         element={<Skills />}
-        //loader={async () => await requireAuth()}
+      //loader={async () => await requireAuth()}
       />
       <Route
         path="interest"
         element={<Interest />}
-        //loader={hostVansLoader}
+      //loader={hostVansLoader}
       />
-      </Route>
+    </Route>
 
 
 
@@ -62,18 +69,18 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 
 
-  <Route
-    path="blog"
-    element={<Blog />}
+    <Route
+      path="blog"
+      element={<Blog />}
     //loader={loginLoader}
     //action={loginAction}
-  />
-  <Route
-    path="portafolio"
-    element={<Portafolio />}
+    />
+    <Route
+      path="portafolio"
+      element={<Portafolio />}
     //errorElement={<Error />}
     //loader={vansLoader}
-  />
+    />
 
   </Route>
 ))
