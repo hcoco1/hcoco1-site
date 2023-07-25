@@ -2,18 +2,20 @@ import React from "react"
 import { NavLink, Outlet } from "react-router-dom"
 import Nav from 'react-bootstrap/Nav';
 
+
 export default function ResumeLayout() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "none",
-        backgroundColor: "var(--bs-teal)",
+        backgroundColor: "var(--bs-cyan)",
         borderRadius: 10,
         padding: 5
     }
 
     return (
         <>
-            <Nav className="justify-content-center resumeNavContainer " activeKey="/home">
+
+            <Nav className="justify-content-center " activeKey="/home">
                 <div className="resumeNavLinks">
                     <NavLink
                         to="."
@@ -54,6 +56,10 @@ export default function ResumeLayout() {
                 </div>
             </Nav>
             <Outlet />
+
         </>
+
+
+
     )
 }

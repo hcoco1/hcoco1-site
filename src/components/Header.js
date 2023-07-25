@@ -1,6 +1,7 @@
 import React from "react"
 import Nav from 'react-bootstrap/Nav';
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+
 
 
 export default function Header() {
@@ -12,7 +13,7 @@ export default function Header() {
         padding: 5
     }
     return (
-        <>
+ 
             <Nav className="justify-content-center navContainer" activeKey="/home">
                 <div className="navLinks">
                     <NavLink
@@ -57,7 +58,7 @@ export default function Header() {
 
 
             </Nav>
-        </>
+   
 
 
 

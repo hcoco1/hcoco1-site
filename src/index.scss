@@ -126,18 +126,8 @@ p  { font-size: $fs-milli;}
   padding: 0;
 }
 
-body {
-
-  font-family: var(--bs-font-sans-serif);
-}
 
 html { background-color: var(--gray-2); } 
-body {
-    min-height: 100vh;
-    max-width: 1000px;
-    background-color: var(--bs-light); 
-    margin: 0 auto;
-}
 
 
 
@@ -188,10 +178,4 @@ body {
 }
 
 
-  @media (min-width: 960px) {
-    .container {
-      margin: 2em;
-    }
-  }
-  
 
