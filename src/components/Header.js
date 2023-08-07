@@ -55,17 +55,8 @@ export default function Header() {
                         Portafolio
                     </NavLink>
                 </div>
-
-
             </Nav>
    
-
-
-
-
-
-
-
     )
 }
 

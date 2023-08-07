@@ -8,7 +8,7 @@ export default function About() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card h-90">
-                    <img src="https://hcoco1.github.io/hcoco1-site-bootstrap/assets/img/profile.jpg" class="card-img-top" alt="..." />
+                    <img src="https://hcoco1.github.io/hcoco1-website/img/IMG_1136.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h6 class="card-title">Ivan Arias
                         | Full Stack Development with Flask and React | Geologist |</h6>

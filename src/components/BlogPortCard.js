@@ -3,6 +3,7 @@ import React from 'react'
 export default function MultiCard(props) {
     return (
         <div class="card h-100">
+            <img src={props.image} class="card-img-top" alt="..."></img>
             <div class="card-body">
                 <p class="card-subtitle mb-2 text-body-secondary text-end">{props.type}</p>
                 <h5 class="card-title">{props.title}</h5>

@@ -6,6 +6,7 @@ export default function Portafolio() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <BlogPortCard
+                    image= "https://github.com/hcoco1/phase2app/raw/main/gif_phase_2.gif?raw=true"
                     type='Web App'
                     title="Real Estate Site (RES)"
                     year="July 2023"
@@ -19,6 +20,7 @@ export default function Portafolio() {
             </div>
             <div class="col">
                 <BlogPortCard
+                    image= ""
                     type='Web Site'
                     title="My Web Site (latest version)"
                     year="July 2023"
@@ -31,6 +33,7 @@ export default function Portafolio() {
             </div>
             <div class="col">
                 <BlogPortCard
+                    image= "https://github.com/hcoco1/Phase1_app/raw/main/phase_1_app.gif?raw=true"
                     type='Web App'
                     title="World Population Dashboard (WPD)"
                     year="May 2023"
@@ -38,13 +41,14 @@ export default function Portafolio() {
                     accesses data from an API I created. WPD returns a collection of countries and is my
                     first App since I am studying Web Development.
                     Because WPD is using a free web service, there will be a delay in the
-                        response to the first request  after a period of inactivity while the
+                    response to the first request  after a period of inactivity while the
                     instance spins up (https://render.com/docs/free)."
                     link="https://hcoco1.github.io/Phase1_app/"
                 />
             </div>
             <div class="col">
                 <BlogPortCard
+                    image= "https://github.com/hcoco1/hcoco1-site-bootstrap/blob/main/assets/img/site_bootstrap.png?raw=true"
                     type='Web Site'
                     title="My Web Site (Bootstrap version)"
                     year="Feb 2023"
@@ -55,6 +59,7 @@ export default function Portafolio() {
             </div>
             <div class="col">
                 <BlogPortCard
+                    image= "https://github.com/hcoco1/hcoco1-website/blob/main/img/site_oldest.png?raw=true"
                     type='Web Site'
                     title="My Web Site (oldest version)"
                     year="Sep 2022"

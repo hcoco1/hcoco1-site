@@ -30,7 +30,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     />
 
     <Route path="resume" element={<ResumeLayout />}>
-      
+
       <Route
         index
         element={<About />}
@@ -58,17 +58,6 @@ const router = createBrowserRouter(createRoutesFromElements(
       //loader={hostVansLoader}
       />
     </Route>
-
-
-
-
-
-
-
-
-
-
-
     <Route
       path="blog"
       element={<Blog />}
@@ -81,7 +70,6 @@ const router = createBrowserRouter(createRoutesFromElements(
     //errorElement={<Error />}
     //loader={vansLoader}
     />
-
   </Route>
 ))
 

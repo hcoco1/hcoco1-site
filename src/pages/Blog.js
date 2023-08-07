@@ -6,6 +6,7 @@ export default function Blog() {
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <BlogPortCard
+          image= "https://source.unsplash.com/1600x900/?charts"
           type='Coding'
           title="Creating a Dynamic Table in React Using react-table (v7.8.0)."
           year="July 2"
@@ -16,6 +17,7 @@ export default function Blog() {
       </div>
       <div class="col">
         <BlogPortCard
+          image="https://source.unsplash.com/1600x900/?list"
           type='Coding'
           title="JavaScript Dynamic Lists"
           year="May 14"
@@ -27,6 +29,7 @@ export default function Blog() {
       </div>
       <div class="col">
         <BlogPortCard
+          image= "https://source.unsplash.com/1600x900/?change"
           type='World'
           title="Changing careers"
           year="May 2"
