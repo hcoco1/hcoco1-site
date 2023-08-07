@@ -20,7 +20,7 @@ export default function Portafolio() {
             </div>
             <div class="col">
                 <BlogPortCard
-                    image= ""
+                    image= "https://github.com/hcoco1/hcoco1-site/blob/main/src/assets/img/site_latest.png?raw=true"
                     type='Web Site'
                     title="My Web Site (latest version)"
                     year="July 2023"
