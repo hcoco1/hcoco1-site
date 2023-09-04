@@ -12,7 +12,7 @@ export default function Blog() {
           year="July 2"
           intro="In web development, tables are commonly used to display structured
           data in a tabular format. React provides various tools and libraries..."
-          link="https://dev.to/hcoco1/creating-a-dynamic-table-in-react-using-react-table-v780-3823"
+          link="https://hcoco1-blog.onrender.com/coding/2023/07/01/creating-a-dynamic-table-in-react.html"
         />
       </div>
       <div class="col">
@@ -24,7 +24,7 @@ export default function Blog() {
           intro="Since I had difficulty showing a list of items in the
           Document Object Model (DOM) in my final phase-1 Project. I decided to blog about DOM
           manipulation using Javascript."
-          link="https://dev.to/hcoco1/javascript-dynamic-list-the-dom-manipulation-10c5"
+          link="https://hcoco1-blog.onrender.com/coding/2023/05/01/javascript-dynamic-list.html"
         />
       </div>
       <div class="col">
@@ -36,7 +36,7 @@ export default function Blog() {
           intro="Changing careers is exciting and intimidating, and some
           people think
           that starting a new job is challenging and impossible for adults and seniors."
-          link="https://dev.to/hcoco1/changing-careers-4o4k"
+          link="https://hcoco1-blog.onrender.com/world/2023/02/01/changing-careers.html"
         />
       </div>
     </div>
