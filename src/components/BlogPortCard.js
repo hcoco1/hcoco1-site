@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MultiCard(props) {
     return (
-        <div class="card h-100">
+        <div class="card h-80">
            
             <div class="card-body">
                 <p class="card-subtitle mb-2 text-body-secondary text-end">{props.type}</p>
