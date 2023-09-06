@@ -1,11 +1,11 @@
 import React from 'react';
-import MultiCard from '../components/MultiCard';
+import ResumeCard from '../components/ResumeCard';
 
 export default function Experience() {
   return (
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Amazon. C.A."
           year="November 2020 - Present"
           role="Sortation Associate"
@@ -16,7 +16,7 @@ export default function Experience() {
         />
       </div>
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Staffing Solutions"
           year="December 2019 - November 2020"
           role="General Labour"
@@ -26,7 +26,7 @@ export default function Experience() {
         />
       </div>
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Petroleum of Venezuela (PDVSA)"
           year="January 2005 - December 2019"
           role="Sedimentologist & Stratigrapher"

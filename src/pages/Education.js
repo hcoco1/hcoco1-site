@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MultiCard from '../components/MultiCard';
+import ResumeCard from '../components/ResumeCard';
 
 export default function Education() {
   return (
@@ -9,7 +9,7 @@ export default function Education() {
     <div class="row row-cols-1 row-cols-md-2 g-4">
 
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Flatiron School"
           year="October 2023 - Feb 2023"
           role="Software Engineer Student"
@@ -19,7 +19,7 @@ export default function Education() {
       </div>
 
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Valencia College"
           year="December 2022 - Apr 2022"
           role="Intensive English Program (IEP) Student"
@@ -31,7 +31,7 @@ export default function Education() {
 
 
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Florida Department of Education"
           year="May 2022 - Jan 2022"
           role="High School equivalency Diploma - GED"
@@ -41,7 +41,7 @@ export default function Education() {
       </div>
 
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Central University of Venezuela"
           year="Nov 2013 - Nov 2010"
           role="M.Sc. in Geology (unfinished)"
@@ -52,7 +52,7 @@ export default function Education() {
 
 
       <div class="col">
-        <MultiCard
+        <ResumeCard
           title="Central University of Venezuela"
           year="Dec 2004 - Feb 1999"
           role="Geological Engineering degree"
