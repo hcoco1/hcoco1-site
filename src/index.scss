@@ -211,4 +211,17 @@ justify-items: center;
   object-fit: cover;
 }
 
+/* This will target all the buttons inside your InlineShareButtons component */
+.share-button-custom .st-btn {
+  width: 100px;     /* set the desired width */
+  height: 40px;     /* set the desired height */
+  padding: 0;       /* reset padding if needed */
+  box-sizing: border-box;  /* ensures padding and border are included in the total width and height */
+}
+
+/* This will ensure that the icons inside your buttons are centered */
+.share-button-custom .st-btn > * {
+  margin: auto;
+}
+
 

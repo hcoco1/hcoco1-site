@@ -17,11 +17,11 @@ export default function MultiCard(props) {
                 <a href={props.link_app} target="_blank" rel="noopener noreferrer">Try it!!</a>
                 <a href={props.link_git} target="_blank" rel="noopener noreferrer">Github Repo</a>
             </div>
-            <div style={{marginTop: '20px'}}>
+            <div className="share-button-custom" style={{marginTop: '20px'}}>
             <InlineShareButtons
                 config={{
                     alignment: 'center',
-                    color: 'social',
+                    color: 'white',
                     enabled: true,
                     font_size: 10,
                     labels: 'cta',
