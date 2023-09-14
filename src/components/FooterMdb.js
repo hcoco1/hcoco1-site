@@ -19,7 +19,7 @@ export default function App() {
       </div>
       <div class=" p-3">
         <a className="social-icon" href="https://twitter.com/hcoco1" aria-label='twitter' target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-twitter fa-2xl"></i>
+          <i className="fab fa-x-twitter fa-2xl"></i>
         </a>
       </div>
       <div class="p-3">
