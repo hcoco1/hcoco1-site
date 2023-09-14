@@ -6,7 +6,7 @@ export default function Education() {
   return (
 
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4" style={{marginBottom: '40px'}}>
 
       <div class="col">
         <ResumeCard

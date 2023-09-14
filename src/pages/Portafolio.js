@@ -1,6 +1,7 @@
 import React from 'react'
 //import blogPosts from './BlogData'
 import MultiCard from '../components/MultiCard'
+import {InlineShareButtons} from 'sharethis-reactjs';
 
 const portafolio_Posts = [
     {
@@ -85,7 +86,10 @@ export default function Blog() {
                     />
                 </div>
             ))}
+            
         </div>
+
+        
     )
 }
 
