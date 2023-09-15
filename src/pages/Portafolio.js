@@ -37,7 +37,7 @@ const portafolio_Posts = [
         title: "My Web Site (latest version)",
         year: "July 2023",
         intro: "My last site looked good, but I wasn't happy with it. I wanted to build  web page using something other than pre-build templates",
-        link_app: "https://hcoco1-site.vercel.app",
+        link_app: "https://arias-ivan-hcoco1.vercel.app/",
         link_git: "https://github.com/hcoco1/hcoco1-site"
     },
     {
