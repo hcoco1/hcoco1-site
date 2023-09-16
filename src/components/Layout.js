@@ -17,7 +17,7 @@ export default function Layout() {
 
         {/* Open Graph */}
         <meta property="og:title" content="Ivan Arias hcoco1 | Web Developer" />
-        <meta property="og:description" content="Ivan Arias personal website. Showcasing skills and projects." />
+        <meta property="og:description" content="Full Stack Development with Flask and React | Geologist |" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/52940441?v=4" />
@@ -27,7 +27,7 @@ export default function Layout() {
         <meta name="twitter:site" content="@hcoco1" />
         <meta name="twitter:title" content="Ivan Arias hcoco1 | Web Developer" />
         <meta name="twitter:description" content="Full Stack Development with Flask and React | Geologist |" />
-        <meta name="twitter:image" content="Yhttps://twitter.com/hcoco1/photo" /> {/* Update this with your actual image URL */}
+        <meta name="twitter:image" content="https://twitter.com/hcoco1/photo" /> {/* Update this with your actual image URL */}
 
       </Helmet>
 
