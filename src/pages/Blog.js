@@ -1,5 +1,5 @@
 import React from 'react'
-//import blogPosts from './BlogData'
+import { Helmet } from "react-helmet";
 import BlogPortCard from '../components/BlogPortCard'
 
 const blogPosts = [
@@ -12,7 +12,7 @@ const blogPosts = [
     link: "https://hcoco1-blog.onrender.com/whats-rss/"
   },
   {
-    src : "https://hcoco1-blog.onrender.com/assets/images/sqlalchemy.jpeg",
+    src: "https://hcoco1-blog.onrender.com/assets/images/sqlalchemy.jpeg",
     type: 'Coding',
     title: "Aggregate functions",
     year: "2023-08-27",
@@ -20,7 +20,7 @@ const blogPosts = [
     link: "https://hcoco1-blog.onrender.com/aggregate-functions-In-SQLAlchemy/"
   },
   {
-    src : "https://hcoco1-blog.onrender.com/assets/images/reac-table.jpg",
+    src: "https://hcoco1-blog.onrender.com/assets/images/reac-table.jpg",
     type: 'Coding',
     title: "Dynamic Tables in React",
     year: "2023-07-01",
@@ -28,7 +28,7 @@ const blogPosts = [
     link: "https://hcoco1-blog.onrender.com/creating-a-dynamic-table-in-react/"
   },
   {
-    src :  "https://hcoco1-blog.onrender.com/assets/images/js.png",
+    src: "https://hcoco1-blog.onrender.com/assets/images/js.png",
     type: 'Coding',
     title: "JS Dynamic List",
     year: "2023-05-01",
@@ -36,7 +36,7 @@ const blogPosts = [
     link: "https://hcoco1-blog.onrender.com/javascript-dynamic-list/"
   },
   {
-    src :  'https://hcoco1-blog.onrender.com/assets/images/change.jpeg',
+    src: 'https://hcoco1-blog.onrender.com/assets/images/change.jpeg',
     type: 'World',
     title: "Changing careers",
     year: "2023-02-01",
@@ -49,6 +49,10 @@ const blogPosts = [
 export default function Blog() {
   return (
     <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
+      <Helmet>
+        <title>Blog Ivan Arias hcoco1 </title>
+        <meta name="description" content="Read the latest articles and updates." />
+      </Helmet>
       {blogPosts.map((post, index) => (
         <div key={index} className="col">
           <BlogPortCard

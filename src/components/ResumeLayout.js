@@ -1,5 +1,6 @@
 import React from "react"
 import { NavLink, Outlet } from "react-router-dom"
+import { Helmet } from "react-helmet";
 import Nav from 'react-bootstrap/Nav';
 
 
@@ -14,6 +15,10 @@ export default function ResumeLayout() {
 
     return (
         <>
+            <Helmet>
+                <title>My Resume - Ivan Arias</title>
+                <meta name="description" content="Overview of my professional background." />
+            </Helmet>
 
             <Nav className="justify-content-center " activeKey="/home">
 
@@ -27,19 +32,19 @@ export default function ResumeLayout() {
                         About
                     </NavLink>
 
-                    </div>
-                    <div className="resumeNavLinks">
+                </div>
+                <div className="resumeNavLinks">
 
-                            <NavLink
+                    <NavLink
                         to="experience"
                         style={({ isActive }) => isActive ? activeStyles : null}
                         className="resumeNavLinks"
                     >
                         Experience
                     </NavLink>
-                    </div>
-                
-              
+                </div>
+
+
 
                 <div className="resumeNavLinks">
                     <NavLink

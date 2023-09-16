@@ -1,7 +1,7 @@
 import React from 'react'
-//import blogPosts from './BlogData'
+import { Helmet } from "react-helmet";
 import MultiCard from '../components/MultiCard'
-import {InlineShareButtons} from 'sharethis-reactjs';
+
 
 const portafolio_Posts = [
     {
@@ -73,6 +73,10 @@ const portafolio_Posts = [
 export default function Blog() {
     return (
         <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
+            <Helmet>
+                <title>Portafolio Ivan Arias hcoco1 </title>
+                <meta name="description" content="Check my latest projects." />
+            </Helmet>
             {portafolio_Posts.map((post, index) => (
                 <div key={index} className="col">
                     <MultiCard
@@ -86,10 +90,10 @@ export default function Blog() {
                     />
                 </div>
             ))}
-            
+
         </div>
 
-        
+
     )
 }
 

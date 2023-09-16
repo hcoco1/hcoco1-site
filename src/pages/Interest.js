@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 export default function Interest() {
   return (
     <div className="container">
+      <Helmet>
+        <title>Interests - Ivan Arias</title>
+        <meta name="description" content="An overview at my interests." />
+      </Helmet>
       <div className="row row-cols-3 g-4">
         <div className="col d-flex align-items-center justify-content-center">
           <div className="d-flex flex-column align-items-center p-3">

@@ -1,11 +1,17 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
+
 
 export default function About() {
     return (
         <div className="card mb-3">
+            <Helmet>
+                <title>About Me - Ivan Arias hcoco1 </title>
+                <meta name="description" content="Learn more about my personal and professional journey." />
+            </Helmet>
             <div className="row g-0">
-            <div className="col-md-4 d-flex align-items-center justify-content-center">
-                    <img src="https://avatars.githubusercontent.com/u/52940441?v=4" className="img-fluid rounded-circle" alt="Profile"/>
+                <div className="col-md-4 d-flex align-items-center justify-content-center">
+                    <img src="https://avatars.githubusercontent.com/u/52940441?v=4" className="img-fluid rounded-circle" alt="Profile" />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">

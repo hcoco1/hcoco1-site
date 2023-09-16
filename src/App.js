@@ -1,4 +1,5 @@
 import React from "react";
+import { HelmetProvider } from 'react-helmet-async';
 
 import {
   RouterProvider,
@@ -8,7 +9,6 @@ import {
 } from "react-router-dom";
 import Layout from "./components/Layout"
 import Blog from "./pages/Blog";
-
 import Home from "./pages/Home";
 import Portafolio from "./pages/Portafolio";
 import ResumeLayout from "./components/ResumeLayout";
@@ -75,7 +75,9 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+    </HelmetProvider>
   )
 }
 

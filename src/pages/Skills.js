@@ -1,8 +1,14 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 export default function Skills() {
   return (
     <div className="container">
+      <Helmet>
+        <title>Skills - Ivan Arias</title>
+        <meta name="description" content="An overview at my skills." />
+      </Helmet>
+
       <div className="row">
         <div className="col d-flex align-items-center justify-content-center m-3">
           <div className="d-flex flex-column align-items-center">
