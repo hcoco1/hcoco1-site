@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div className="container">
       <Helmet>
-        <title>Skills - Ivan Arias</title>
+        <title>Skills - Ivan Arias hcoco1</title>
         <meta name="description" content="An overview at my skills." />
       </Helmet>
 

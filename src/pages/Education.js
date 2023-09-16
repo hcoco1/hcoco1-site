@@ -1,12 +1,16 @@
 import React from 'react';
-
+import { Helmet } from "react-helmet";
 import ResumeCard from '../components/ResumeCard';
 
 export default function Education() {
   return (
 
 
-    <div class="row row-cols-1 row-cols-md-2 g-4" style={{marginBottom: '40px'}}>
+    <div class="row row-cols-1 row-cols-md-2 g-4" style={{ marginBottom: '40px' }}>
+      <Helmet>
+        <title>Education - Ivan Arias hcoco1</title>
+        <meta name="description" content="A detailed look at my education over the years." />
+      </Helmet>
 
       <div class="col">
         <ResumeCard

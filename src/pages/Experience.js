@@ -6,8 +6,8 @@ export default function Experience() {
   return (
     <div class="row row-cols-1 row-cols-md-2 g-4" style={{ marginBottom: '40px' }}>
       <Helmet>
-        <title>Experience - Site Name</title>
-        <meta name="description" content="A detailed look at my education over the years." />
+        <title>Experience - Ivan Arias hcoco1</title>
+        <meta name="description" content="A detailed look at my experience over the years." />
       </Helmet>
       <div class="col">
         <ResumeCard

@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <div className="container">
       <Helmet>
-        <title>Ivan Arias hcoco1 | Web Developer</title>
+        <title>Ivan Arias| Web Developer</title>
         <meta name="description" content="Explore Ivan Arias' professional journey, portfolio, and blog. Dive deep into his experiences, skills, and passions in the tech industry." />
 
         <link rel="canonical" href={canonicalUrl} />

@@ -5,7 +5,7 @@ export default function Interest() {
   return (
     <div className="container">
       <Helmet>
-        <title>Interests - Ivan Arias</title>
+        <title>Interests - Ivan Arias hcoco1</title>
         <meta name="description" content="An overview at my interests." />
       </Helmet>
       <div className="row row-cols-3 g-4">
