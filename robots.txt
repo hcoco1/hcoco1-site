@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://arias-ivan-hcoco1.vercel.app/sitemap.xml
