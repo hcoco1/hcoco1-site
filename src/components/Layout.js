@@ -5,7 +5,7 @@ import Header from "./Header";
 import FooterMdb from "./FooterMdb";
 
 export default function Layout() {
-  const canonicalUrl = "https://arias-ivan-hcoco1.vercel.app/";
+  const canonicalUrl = "https://hcoco1-site.onrender.com/";
 
   return (
     <div className="container">
@@ -27,7 +27,7 @@ export default function Layout() {
         <meta name="twitter:site" content="@hcoco1" />
         <meta name="twitter:title" content="Ivan Arias hcoco1 | Web Developer" />
         <meta name="twitter:description" content="Full Stack Development with Flask and React | Geologist |" />
-        <meta name="twitter:image" content="https://twitter.com/hcoco1/photo" /> {/* Update this with your actual image URL */}
+        <meta name="twitter:image" content="https://twitter.com/hcoco1/photo" />
 
       </Helmet>
 
