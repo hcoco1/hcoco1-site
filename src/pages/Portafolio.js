@@ -5,6 +5,15 @@ import MultiCard from '../components/MultiCard'
 
 const portafolio_Posts = [
     {
+        src: "https://hcoco1-blog.onrender.com/assets/images/flask-react-python.png",
+        type: 'Web App',
+        title: "E-commerce",    
+        year: "October 2023",
+        intro: "This project is an e-commerce platform built with React for the frontend and flask for the backend.",
+        link_app: "https://phase5-app-tyia.onrender.com/",
+        link_git: "https://github.com/hcoco1/e-commerce-2"
+    },
+    {
         src: "https://srinathh.github.io/assets/images/generic/jekyll-logo-dark-solid.png",
         type: 'Web Site',
         title: "Ivan Arias Blog Site",

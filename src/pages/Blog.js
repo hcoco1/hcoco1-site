@@ -4,6 +4,22 @@ import BlogPortCard from '../components/BlogPortCard'
 
 const blogPosts = [
   {
+    src: "https://hcoco1-blog.onrender.com/assets/images/flask-react-python.png",
+    type: 'Coding',
+    title: "Building a Navigation Bar using React Router",
+    year: "2023-10-07",
+    intro: "So, this is it!, the final project...",
+    link: "https://hcoco1-blog.onrender.com/Phase-5-Final-Project-Blog/"
+  },
+  {
+    src: "https://hcoco1-blog.onrender.com/assets/images/code_cha.png",
+    type: 'Study',
+    title: "Phase 4 Study Guide",
+    year: "2023-09-21",
+    intro: "Study Guide for the Flatiron...",
+    link: "https://hcoco1-blog.onrender.com/phase-4-challenge/"
+  },
+  {
     src: "https://hcoco1-blog.onrender.com/assets/images/rss.png",
     type: 'Coding',
     title: "What is RSS?",
