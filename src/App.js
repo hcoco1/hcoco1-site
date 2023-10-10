@@ -68,7 +68,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       path="portafolio"
       element={<Portafolio />}
     //errorElement={<Error />}
-    //loader={vansLoader}
+    
     />
   </Route>
 ))
