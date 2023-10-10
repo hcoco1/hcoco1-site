@@ -37,7 +37,6 @@ export default function MultiCard(props) {
                     image: props.src    // Share the image associated with the post
                 }}
             />
-
             </div>
 
         </div>
