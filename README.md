@@ -8,7 +8,7 @@
 
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/arias-ivan-hcoco1/">
+  <a href="https://www.linkedin.com/in/hcoco1/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://www.youtube.com/channel/UCban0ilP3jBC9rdmL-fPy_Q">

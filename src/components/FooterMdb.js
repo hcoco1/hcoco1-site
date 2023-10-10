@@ -15,7 +15,7 @@ export default function App() {
         </a>
       </div>
       <div class="p-3">
-        <a className="social-icon" href="https://www.linkedin.com/in/arias-ivan-hcoco1/" aria-label='linkedin' target="_blank" rel="noopener noreferrer">
+        <a className="social-icon" href="https://www.linkedin.com/in/hcoco1/" aria-label='linkedin' target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin-in fa-2xl"></i>
         </a>
       </div>
