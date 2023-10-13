@@ -37,11 +37,11 @@
 ### Latest Blog Posts :
 
 <!-- BLOG-POST-LIST:START -->
-- [What is RSS?](https://hcoco1-blog.onrender.com/whats-rss/)
-- [Aggregate functions](https://hcoco1-blog.onrender.com/aggregate-functions-In-SQLAlchemy/)
-- [Dynamic Tables in React](https://hcoco1-blog.onrender.com/creating-a-dynamic-table-in-react/)
-- [JS Dynamic List](https://hcoco1-blog.onrender.com/javascript-dynamic-list/)
-- [Changing careers](https://hcoco1-blog.onrender.com/changing-careers/)
+- [What is RSS?](https://hcoco1.blog/whats-rss/)
+- [Aggregate functions](https://hcoco1.blog/aggregate-functions-In-SQLAlchemy/)
+- [Dynamic Tables in React](https://hcoco1.blog/creating-a-dynamic-table-in-react/)
+- [JS Dynamic List](https://hcoco1.blog/javascript-dynamic-list/)
+- [Changing careers](https://hcoco1.blog/changing-careers/)
 <!-- BLOG-POST-LIST:END -->
 
 
