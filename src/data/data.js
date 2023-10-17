@@ -1,4 +1,4 @@
-import { SiFlask } from "react-icons/si";
+import { SiFlask, SiRedux, SiAxios, SiStyledcomponents } from "react-icons/si";
 
 export const blogPosts = [
     {
@@ -72,6 +72,13 @@ export const skills = [
     { iconName: "fab fa-python fa-2x", color: '#1e1e1f', skillName: "Python", percentage: 30 },
     { iconName: "fas fa-database fa-2x", color: '#d0bc35', skillName: "SQL", percentage: 30 },
     { IconComponent: SiFlask, color: 'black', skillName: "Flask", percentage: 30 },
+    { IconComponent: SiRedux, color: 'purple', skillName: "Redux", percentage: 20 },
+    { IconComponent: SiAxios, color: 'black', skillName: "Axios", percentage: 20 },
+    { IconComponent: SiStyledcomponents, color: 'blue', skillName: "Styled Components", percentage: 20 },
+
+    
+
+    
 ];
 
 export const interests = [
