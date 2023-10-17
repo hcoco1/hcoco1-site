@@ -19,9 +19,7 @@ export default function ResumeLayout() {
                 <title>My Resume - Ivan Arias</title>
                 <meta name="description" content="Overview of my professional background." />
             </Helmet>
-
             <Nav className="justify-content-center " activeKey="/home">
-
                 <div className="resumeNavLinks">
                     <NavLink
                         to="."
@@ -31,10 +29,8 @@ export default function ResumeLayout() {
                     >
                         About
                     </NavLink>
-
                 </div>
                 <div className="resumeNavLinks">
-
                     <NavLink
                         to="experience"
                         style={({ isActive }) => isActive ? activeStyles : null}
@@ -43,9 +39,6 @@ export default function ResumeLayout() {
                         Experience
                     </NavLink>
                 </div>
-
-
-
                 <div className="resumeNavLinks">
                     <NavLink
                         to="education"
@@ -70,7 +63,7 @@ export default function ResumeLayout() {
                         style={({ isActive }) => isActive ? activeStyles : null}
                         className="resumeNavLinks"
                     >
-                        Interest
+                        Interests
                     </NavLink>
                 </div>
             </Nav>

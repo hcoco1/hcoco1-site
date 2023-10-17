@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
+import { SiFlask } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -20,7 +21,7 @@ export default function Skills() {
         <div className="col d-flex align-items-center justify-content-center m-3">
           <div className="d-flex flex-column align-items-center">
             <i className="fab fa-react fa-2x" style={{ color: '#3366c4' }}></i>
-            <p className="icon-text">React Nat</p>
+            <p className="icon-text">React Router</p>
           </div>
         </div>
 
@@ -95,8 +96,10 @@ export default function Skills() {
 
         <div className="col d-flex align-items-center justify-content-center m-3">
           <div className="d-flex flex-column align-items-center">
-            <i className="fab fa-node-js fa-2x" style={{ color: '#1aa842' }}></i>
-            <p className="icon-text">Node.js</p>
+            <SiFlask size={40} color="black" />
+            <p className="icon-text">Flask</p>
+
+
           </div>
         </div>
       </div>
