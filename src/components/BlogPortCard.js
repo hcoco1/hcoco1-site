@@ -12,8 +12,7 @@ export default function BlogPortCard(props) {
                     <p className="card-text">{props.description}</p>
                     <p className="card-text">{props.intro}</p>
                     <h6 className="card-subtitle mb-2 text-body-secondary">{props.role}</h6>
-                    {/* Remove the inner <a> tag */}
-                    {/* <a href={props.link} target="_blank" rel="noopener noreferrer">Try it!!</a> */}
+                
                 </div>
             </div>
         </a>

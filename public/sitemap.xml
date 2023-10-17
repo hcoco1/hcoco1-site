@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://arias-ivan-hcoco1.vercel.app/</loc>
+      <loc>https://www.hcoco1.com/</loc>
       <lastmod>2023-09-14</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://arias-ivan-hcoco1.vercel.app/resume</loc>
+      <loc>https://www.hcoco1.com/resume</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+      <url>
+      <loc>https://www.hcoco1.com/resume/experience</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+      <url>
+      <loc>https://www.hcoco1.com/resume/education</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+      <url>
+      <loc>https://www.hcoco1.com/resume/skills</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+         <url>
+      <loc>https://www.hcoco1.com/resume/interest</loc>
       <changefreq>monthly</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://arias-ivan-hcoco1.vercel.app/blog</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>https://arias-ivan-hcoco1.vercel.app/portafolio</loc>
+      <loc>https://www.hcoco1.com/blog</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://www.hcoco1.com/portafolio</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
    </url>
    </urlset>
 

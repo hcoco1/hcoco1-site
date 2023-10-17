@@ -70,8 +70,5 @@ export default function ResumeLayout() {
             <Outlet />
 
         </>
-
-
-
     )
 }
