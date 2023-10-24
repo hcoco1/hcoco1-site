@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ResumeCard(props) {
     return (
-        <div className="card h-100 w-100">
+        <div className="card text-bg-light border-secondary  h-100 w-100">
             <div className="card-body">
                 <p className="card-subtitle mb-2 text-body-secondary text-end">{props.type}</p>
                 <h5 className="card-title">{props.title}</h5>

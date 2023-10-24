@@ -152,11 +152,13 @@ p {
 body {
   font-family: var(--bs-font-sans-serif);
   font-size: $fs-base;
+  max-width: 900px;
+  margin: 0 auto;
   //background-color: var(--bs-gray);
   
 }
 .navContainer {
-  background-color: var(--orange1);
+  background-color: var(--blue);
 }
 
 .resumeNavContainer {

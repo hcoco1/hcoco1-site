@@ -5,7 +5,7 @@ import Header from "./Header";
 import FooterMdb from "./FooterMdb";
 
 export default function Layout() {
-  const canonicalUrl = "https://hcoco1-site.onrender.com/";
+  const canonicalUrl = "https://hcoco1.blog/";
 
   return (
     <div className="container">

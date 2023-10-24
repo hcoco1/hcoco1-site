@@ -8,7 +8,7 @@ export default function Header() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "none",
-        backgroundColor: "var(--bs-nature)",
+      
         borderRadius: 10,
         padding: 5
     }

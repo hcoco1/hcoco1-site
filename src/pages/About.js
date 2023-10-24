@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 
 export default function About() {
     return (
-        <div className="card mb-3">
+        <div className="card text-bg-light border-secondary  mb-3">
             <Helmet>
                 <title>About Me - Ivan Arias hcoco1 </title>
                 <meta name="description" content="Learn more about my personal and professional journey." />
