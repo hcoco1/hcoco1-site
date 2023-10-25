@@ -5,7 +5,7 @@ import MultiCard from '../components/MultiCard'
 
 const portafolio_Posts = [
     {
-        src: "https://hcoco1-blog.onrender.com/assets/images/flask-react-python.png",
+        src: "https://hcoco1.blog/assets/images/flask-react-python.png",
         type: 'Web App',
         title: "E-commerce",    
         year: "October 2023",
@@ -19,7 +19,7 @@ const portafolio_Posts = [
         title: "Ivan Arias Blog Site",
         year: "September 2023",
         intro: "My blog site is a Jekyll static site whose purpose is to share my knowledge and experience in the software development world.",
-        link_app: "https://hcoco1-blog.onrender.com/",
+        link_app: "https://hcoco1.blog/",
         link_git: "https://github.com/hcoco1/blog-hcoco1"
     },
     {
@@ -46,7 +46,7 @@ const portafolio_Posts = [
         title: "My Web Site (latest version)",
         year: "July 2023",
         intro: "My last site looked good, but I wasn't happy with it. I wanted to build  web page using something other than pre-build templates",
-        link_app: "https://arias-ivan-hcoco1.vercel.app/",
+        link_app: "https://hcoco1.com/",
         link_git: "https://github.com/hcoco1/hcoco1-site"
     },
     {
