@@ -13,7 +13,8 @@ export default function Home() {
           <div className="row h-100 align-items-center">
             <div className="col-12 text-center">
               <h1 className="fw-light">Welcome to my Site</h1>
-              <p className="lead"><strong>My name is Ivan</strong>: thank you for stopping by!</p>
+              <h2 className="subtitle"><a href='/resume'>My name is Ivan</a>; </h2>
+              <h>thank you for stopping by!</h>
             </div>
           </div>
         </div>
