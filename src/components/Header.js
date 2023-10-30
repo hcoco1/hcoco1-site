@@ -52,7 +52,7 @@ export default function Header() {
                         style={({ isActive }) => isActive ? activeStyles : null}
                         className="navLinks"
                     >
-                        Portafolio
+                        Portfolio
                     </NavLink>
                 </div>
             </Nav>

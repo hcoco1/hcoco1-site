@@ -34,40 +34,39 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route
         index
         element={<About />}
-      //loader={async () => await requireAuth()}
+     
       />
 
       <Route
         path="experience"
         element={<Experience />}
-      //loader={async () => await requireAuth()}
+      
       />
       <Route
         path="education"
         element={<Education />}
-      //loader={async () => await requireAuth()}
+      
       />
       <Route
         path="skills"
         element={<Skills />}
-      //loader={async () => await requireAuth()}
+      
       />
       <Route
         path="interest"
         element={<Interest />}
-      //loader={hostVansLoader}
+     
       />
     </Route>
     <Route
       path="blog"
       element={<Blog />}
-    //loader={loginLoader}
-    //action={loginAction}
+
     />
     <Route
       path="portafolio"
       element={<Portafolio />}
-    //errorElement={<Error />}
+   
     
     />
   </Route>
