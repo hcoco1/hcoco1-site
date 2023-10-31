@@ -35,7 +35,7 @@ export default function Experience() {
           title="Petroleum of Venezuela (PDVSA)"
           year="January 2005 - December 2019"
           role="Sedimentologist & Stratigrapher"
-          description="Oil and Gas Project Management with strict adherence to deadlines, Geostatistical Modeling,
+          description="Oil and Gas Exploration Project with strict adherence to deadlines, Geostatistical Modeling,
                   and GIS-based Thematic Mapping."
           link="http://www.pdvsa.com/index.php?lang=en"
         />
