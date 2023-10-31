@@ -11,7 +11,8 @@ const portafolio_Posts = [
         year: "October 2023",
         intro: "This project is an e-commerce platform built with React for the frontend and flask for the backend.",
         link_app: "https://phase5-app-tyia.onrender.com/",
-        link_git: "https://github.com/hcoco1/e-commerce-2"
+        link_git: "https://github.com/hcoco1/e-commerce-2",
+        link_demo: "https://youtu.be/9TeuJNePlGw"
     },
     {
         src: "https://srinathh.github.io/assets/images/generic/jekyll-logo-dark-solid.png",
@@ -28,8 +29,8 @@ const portafolio_Posts = [
         title: "Database Tool (DT)",
         year: "August 2023",
         intro: "Database Tool (DT) is a SQLALCHEMY/SQLITE3/CLICK command line interface (CLI) designed to manage US entities",
-        link_app: "https://github.com/hcoco1/phase3_cli_click",
-        link_git: "https://github.com/hcoco1/phase3_cli_click"
+        link_git: "https://github.com/hcoco1/phase3_cli_click",
+        link_demo: "https://youtu.be/UrotTLXdx5c"
     },
     {
         src: "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/03/931/506/FLORIDA-REAL-ESTATE-HOME-SALE-GETTY.jpg?ve=1&tl=1",
@@ -38,7 +39,8 @@ const portafolio_Posts = [
         year: "July 2023",
         intro: "Real Estate Site (RES) is a REACT/REACT-BOOTSTRAP/REACT-ROUTER app that accesses data from a web database.",
         link_app: "https://phase2app.vercel.app/",
-        link_git: "https://github.com/hcoco1/phase2app"
+        link_git: "https://github.com/hcoco1/phase2app",
+        link_demo: "https://youtu.be/gTGiYxPJ-Dk"
     },
     {
         src: "https://images.unsplash.com/photo-1457092716468-97352752b749?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1095&q=80",
@@ -56,7 +58,8 @@ const portafolio_Posts = [
         year: "May 2023",
         intro: "World Population Dashboard is an HTML/CSS/JS app that accesses data from an API I created",
         link_app: "https://hcoco1.github.io/Phase1_app/",
-        link_git: "https://github.com/hcoco1/Phase1_app"
+        link_git: "https://github.com/hcoco1/Phase1_app",
+        link_demo: "https://youtu.be/w_4ZAicscw4"
     },
     {
         src: "https://www.bootstrapdash.com/blog/wp-content/uploads/2017/08/bootstrap-4-beta-whats-new.jpg",
@@ -96,6 +99,7 @@ export default function Blog() {
                         intro={post.intro}
                         link_app={post.link_app}
                         link_git={post.link_git}
+                        link_demo={post.link_demo}
                     />
                 </div>
             ))}

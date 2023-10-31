@@ -13,10 +13,27 @@ export default function MultiCard(props) {
             <p className="card-text">{props.intro}</p>
             <h6 className="card-subtitle mb-2 text-body-secondary">{props.role}</h6>
             
-            <div className="d-flex justify-content-between">
-                <a href={props.link_app} target="_blank" rel="noopener noreferrer">Try it!!</a>
-                <a href={props.link_git} target="_blank" rel="noopener noreferrer">Github Repo</a>
-            </div>
+              <div className="d-flex justify-content-between">
+
+                    {props.link_app ? (
+                        <a href={props.link_app} target="_blank" rel="noopener noreferrer">Live App</a>
+                    ) : null}
+                 
+
+
+
+                  <a href={props.link_git} target="_blank" rel="noopener noreferrer">Github Repo</a>
+
+
+
+                  {props.link_demo ? (
+                      <a href={props.link_demo} target="_blank" rel="noopener noreferrer">Demo</a>
+                  ) : null}
+
+
+
+              </div>
+
             <div className="share-button-custom" style={{marginTop: '20px'}}>
             <InlineShareButtons
                 config={{
