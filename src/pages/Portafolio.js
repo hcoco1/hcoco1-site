@@ -56,7 +56,7 @@ const portafolio_Posts = [
         type: 'Web App',
         title: "World Population Dashboard (WPD)",
         year: "May 2023",
-        intro: "World Population Dashboard is an HTML/CSS/JS app that accesses data from an API I created",
+        intro: "World Population Dashboard is an HTML/CSS/JS app that accesses data from an API I created. You can leave messages, and they will persist.",
         link_app: "https://hcoco1.github.io/Phase1_app/",
         link_git: "https://github.com/hcoco1/Phase1_app",
         link_demo: "https://youtu.be/w_4ZAicscw4"

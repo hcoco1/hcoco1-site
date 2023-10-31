@@ -20,10 +20,7 @@ export default function MultiCard(props) {
                     ) : null}
                  
 
-
-
                   <a href={props.link_git} target="_blank" rel="noopener noreferrer">Github Repo</a>
-
 
 
                   {props.link_demo ? (
