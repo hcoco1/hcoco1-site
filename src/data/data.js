@@ -97,7 +97,7 @@ export const educationData = [
     {
         title: 'Flatiron School',
         year: 'October 2023 - Feb 2023',
-        role: 'Software Engineer Student',
+        role: 'Software Engineer',
         description: 'Program Objectives: Build a full-stack web application with a React frontend, a Flask backend, and a PostgreSQL database.',
         link: 'https://flatironschool.com/',
     },
