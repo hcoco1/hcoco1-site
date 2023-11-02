@@ -82,13 +82,78 @@ export const skills = [
 ];
 
 export const interests = [
-    { href: "https://chess.com", iconName: "fas fa-chess fa-2x", color: '#81f89f', interestName: "Chess" },
-    { href: "https://scrimba.com/", iconName: "fas fa-laptop-code fa-2x", color: '#5638b9', interestName: "Coding" },
-    { href: "https://theweek.com/", iconName: "fas fa-landmark fa-2x", color: '#a0bd38', interestName: "Politics" },
-    { href: "https://photographylife.com/", iconName: "fas fa-camera-retro fa-2x", color: '#343d3b', interestName: "Photography" },
-    { href: "https://www.nationalgeographic.com/magazine/", iconName: "fas fa-microscope fa-2x", color: '#1cc427', interestName: "Science" },
-    { href: "https://open.spotify.com/user/ivan.arias23?si=e96f5e710e3b4b1a", iconName: "fas fa-music fa-2x", color: '#bd5d38', interestName: "Music" },
-    { href: "https://www.wsj.com/podcasts/the-journal", iconName: "fas fa-podcast fa-2x", color: '#1c70d0', interestName: "Podcasts" },
-    { href: "https://www.economist.com/", iconName: "fas fa-money-bill-alt fa-2x", color: '#ed0404', interestName: "Economics" },
-    { href: "https://www.raspberrypi.org/learn/", iconName: "fab fa-raspberry-pi fa-2x", color: '#ed0404', interestName: "Pi" },
+    { href: "https://chess.com", iconName: "fas fa-chess fa-3x", color: '#81f89f', interestName: "Chess" },
+    { href: "https://scrimba.com/", iconName: "fas fa-laptop-code fa-3x", color: '#5638b9', interestName: "Coding" },
+    { href: "https://theweek.com/", iconName: "fas fa-landmark fa-3x", color: '#a0bd38', interestName: "Politics" },
+    { href: "https://photographylife.com/", iconName: "fas fa-camera-retro fa-3x", color: '#343d3b', interestName: "Photography" },
+    { href: "https://www.nationalgeographic.com/magazine/", iconName: "fas fa-microscope fa-3x", color: '#1cc427', interestName: "Science" },
+    { href: "https://open.spotify.com/user/ivan.arias23?si=e96f5e710e3b4b1a", iconName: "fas fa-music fa-3x", color: '#bd5d38', interestName: "Music" },
+    { href: "https://www.wsj.com/podcasts/the-journal", iconName: "fas fa-podcast fa-3x", color: '#1c70d0', interestName: "Podcasts" },
+    { href: "https://www.economist.com/", iconName: "fas fa-money-bill-alt fa-3x", color: '#ed0404', interestName: "Economics" },
+    { href: "https://www.raspberrypi.org/learn/", iconName: "fab fa-raspberry-pi fa-3x", color: '#ed0404', interestName: "Pi" },
+];
+
+export const educationData = [
+    {
+        title: 'Flatiron School',
+        year: 'October 2023 - Feb 2023',
+        role: 'Software Engineer Student',
+        description: 'Program Objectives: Build a full-stack web application with a React frontend, a Flask backend, and a PostgreSQL database.',
+        link: 'https://flatironschool.com/',
+    },
+    {
+        title: 'Valencia College',
+        year: 'December 2022 - Apr 2022',
+        role: 'Intensive English Program (IEP) Student',
+        description: 'The Intensive English Program (IEP) is accredited by the Commission on English Language Program Accreditation.',
+        link: 'https://valenciacollege.edu/academics/continuing-education/intensive-english-program/program-description.php',
+    },
+    {
+        title: 'Florida Department of Education',
+        year: 'May 2022 - Jan 2022',
+        role: 'High School equivalency Diploma - GED',
+        description: 'The General Education Development (GED) diploma is a valuable credential that can open doors to various education and career opportunities.',
+        link: 'https://ged.com/',
+    },
+    {
+        title: 'Central University of Venezuela',
+        year: 'Nov 2013 - Nov 2010',
+        role: 'M.Sc. in Geology (unfinished)',
+        description: 'The objective of this master\'s degree is to generate a graduate with greater versatility in the field of industry and the applied sciences of Geology.',
+        link: 'https://www.timeshighereducation.com/world-university-rankings/universidad-central-de-venezuela-ucv',
+    },
+    {
+        title: 'Central University of Venezuela',
+        year: 'Dec 2004 - Feb 1999',
+        role: 'Geological Engineering degree',
+        description: 'The objective of this degree is to generate a graduate with greater versatility in the field of industry and the applied sciences of Geology.',
+        link: 'https://www.timeshighereducation.com/world-university-rankings/universidad-central-de-venezuela-ucv',
+    },
+];
+
+export const experienceData = [
+    {
+        title: 'Amazon. C.A.',
+        year: 'November 2020 - Present',
+        role: 'Sortation Associate',
+        description:
+            'Scanning, inspecting, and sorting merchandise and packages to reach their intended locations. Implemented safety protocols to minimize workplace accidents and maintained a clean and organized work environment.',
+        link: 'https://www.amazon.jobs/en',
+    },
+    {
+        title: 'Staffing Solutions',
+        year: 'December 2019 - November 2020',
+        role: 'General Labour',
+        description:
+            'Perform general landscaping duties, maintaining the cleanliness and appearance of the workplace and providing quality service in a timely and friendly manner.',
+        link: 'https://www.livecareer.com/resume/objectives/construction/general-labor',
+    },
+    {
+        title: 'Petroleum of Venezuela (PDVSA)',
+        year: 'January 2005 - December 2019',
+        role: 'Sedimentologist & Stratigrapher',
+        description:
+            'Oil and Gas Exploration Project with strict adherence to deadlines, Geostatistical Modeling, and GIS-based Thematic Mapping.',
+        link: 'http://www.pdvsa.com/index.php?lang=en',
+    },
 ];
