@@ -137,7 +137,7 @@ export const experienceData = [
         year: 'November 2020 - Present',
         role: 'Sortation Associate',
         description:
-            'Scanning, inspecting, and sorting merchandise and packages to reach their intended locations. Implemented safety protocols to minimize workplace accidents and maintained a clean and organized work environment.',
+            'Scanning, inspecting, and sorting merchandise and packages to reach their intended locations. Implement safety protocols to minimize workplace accidents and maintained a clean and organized work environment.',
         link: 'https://www.amazon.jobs/en',
     },
     {
