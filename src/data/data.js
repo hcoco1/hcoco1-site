@@ -76,9 +76,9 @@ export const skills = [
     { IconComponent: SiAxios, color: 'black', skillName: "Axios", percentage: 20 },
     { IconComponent: SiStyledcomponents, color: 'blue', skillName: "Styled Components", percentage: 20 },
 
-    
 
-    
+
+
 ];
 
 export const interests = [

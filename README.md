@@ -18,30 +18,21 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
   
-
-
-
-
-
 </div>  
 
 
 <hr />        
 
-<div>
-  
-
+ 
 
 
 
 ### Latest Blog Posts :
 
 <!-- BLOG-POST-LIST:START -->
+- [Building a Navigation Bar using React Router](https://hcoco1.blog/Phase-5-Final-Project-Blog/)
+- [Phase 4 Study Guide](https://hcoco1.blog/phase-4-challenge/)
 - [What is RSS?](https://hcoco1.blog/whats-rss/)
-- [Aggregate functions](https://hcoco1.blog/aggregate-functions-In-SQLAlchemy/)
-- [Dynamic Tables in React](https://hcoco1.blog/creating-a-dynamic-table-in-react/)
-- [JS Dynamic List](https://hcoco1.blog/javascript-dynamic-list/)
-- [Changing careers](https://hcoco1.blog/changing-careers/)
 <!-- BLOG-POST-LIST:END -->
 
 

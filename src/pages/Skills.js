@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-
 import SkillCard from '../components/SkillCard'
 import { skills } from '../data/data'
 
