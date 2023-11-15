@@ -18,8 +18,8 @@ export default function About() {
                         <h5 className="card-title text-center">Ivan Arias</h5>
                         <h6 className="card-title text-center">| Full Stack Development with Flask and React | Geologist |</h6>
                         <p className="card-text">Proficient with Python, Flask, and JavaScript-based programming. Geological modeling and Geographic Information System (GIS) background. Strong interpersonal and team-building skills. Seek to join an innovative and collaborative team focused on creating and executing cutting-edge software solutions that enhance business productivity. </p>
-                        <a href="/assets/IvanAResume.pdf" download className="btn btn-primary">Download CV</a>
-                        <p className="card-text mt-3"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                        <a href="/assets/IvanAResume.pdf" download className="btn btn-primary btn-sm mx-2">Download CV</a>
+                        <a href="https://resume.hcoco1.com/cv" className="btn btn-secondary btn-sm mx-2">View CV</a>
                     </div>
                 </div>
             </div>
