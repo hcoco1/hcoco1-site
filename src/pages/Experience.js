@@ -10,7 +10,7 @@ export default function Experience() {
     <div className="row row-cols-1 row-cols-md-2 g-4" style={{ marginBottom: '40px' }}>
       <Helmet>
         <title>Experience - Ivan Arias hcoco1</title>
-        <meta name="description" content="A detailed look at my experience over the years." />
+        <meta name="description" content="Experience - Ivan Arias hcoco1" />
       </Helmet>
       {experienceData.map((experience, index) => (
         <div className="col" key={index}>

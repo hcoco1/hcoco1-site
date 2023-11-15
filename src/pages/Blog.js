@@ -19,6 +19,8 @@ export default function Blog() {
             year={post.year}
             intro={post.intro}
             link={post.link}
+            tags={post.tags}
+            badge={post.badge}
           />
         </div>
       ))}

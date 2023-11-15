@@ -4,11 +4,12 @@ export const blogPosts = [
     {
         src: "https://hcoco1.blog/assets/images/flask-react-python.png",
         type: 'Coding',
-        title: "Building a Navigation Bar using React Router",
+        title: "Building a Navigation Bar",
         year: "2023-10-07",
         intro: "So, this is it!, the final project...",
         link: "https://hcoco1.blog/Phase-5-Final-Project-Blog/",
         filePath: './src/data/posts/phase-5-final-project-blog.md',
+        tags: ['#Flask', '#UseContext', '#Axios', '#StyledComponents', '#PostgreSQL'],
         badge: 'New'
     },
     {
@@ -19,6 +20,7 @@ export const blogPosts = [
         intro: "Study Guide for the Flatiron...",
         link: "https://hcoco1.blog/phase-4-challenge/",
         filePath: './src/data/posts/phase-4-challenge.md',
+        tags: ['#Flask', '#Python', '#SQLAlchemy', '#SQLite3', '#Click'],
         badge: 'New'
     },
     {
@@ -29,6 +31,7 @@ export const blogPosts = [
         intro: "Have you noticed the little RSS...",
         link: "https://hcoco1.blog/whats-rss/",
         filePath: './src/data/posts/whats-rss.md',
+        tags: ['#RSS', '#Feed', '#XML'],
         
     },
     {
@@ -39,6 +42,7 @@ export const blogPosts = [
         intro: "In this tutorial, I will use SQLAlchemy...",
         link: "https://hcoco1.blog/aggregate-functions-In-SQLAlchemy/",
         filePath: './src/data/posts/aggregate-functions-In-SQLAlchemy.md',
+        tags: ['#SQLAlchemy', '#SQLite3'],
 
     },
     {
@@ -49,7 +53,8 @@ export const blogPosts = [
         intro: "In web development, tables are commonly...",
         link: "https://hcoco1.blog/creating-a-dynamic-table-in-react/",
         filePath: './src/data/posts/creating-a-dynamic-table-in-react.md',
-        badge: 'Most readed'
+        badge: 'Most readed',
+        tags: ['#ReactTable', '#ReactBootstrap', '#ReactRouter'],
     },
     {
         src: "https://hcoco1.blog/assets/images/js.png",
@@ -58,7 +63,8 @@ export const blogPosts = [
         year: "2023-05-01",
         intro: "Since I had difficulty showing a list of items...",
         link: "https://hcoco1.blog/javascript-dynamic-list/",
-        filePath: './src/data/posts/javascript-dynamic-list.md'
+        filePath: './src/data/posts/javascript-dynamic-list.md',
+        tags: ['#JavaScript'],
     },
     {
         src: 'https://hcoco1.blog/assets/images/change.jpeg',
@@ -67,7 +73,8 @@ export const blogPosts = [
         year: "2023-02-01",
         intro: "Changing careers is exciting and ...",
         link: "https://hcoco1.blog/changing-careers/",
-        filePath: './src/data/posts/changing-careers.md'
+        filePath: './src/data/posts/changing-careers.md',
+        tags: ['#Career'],
     }
 ];
 

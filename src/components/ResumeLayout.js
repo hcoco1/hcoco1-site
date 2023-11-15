@@ -23,7 +23,7 @@ export default function ResumeLayout() {
         <>
             <Helmet>
                 <title>My Resume - Ivan Arias</title>
-                <meta name="description" content="Overview of my professional background." />
+                <meta name="description" content="My Resume - Ivan Arias." />
             </Helmet>
             <Nav className="justify-content-center " activeKey="/home">
                 {resumeNavItems.map((item, index) => (

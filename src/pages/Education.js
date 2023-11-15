@@ -9,7 +9,7 @@ export default function Education() {
     <div className="row row-cols-1 row-cols-md-2 g-4" style={{ marginBottom: '40px' }}>
       <Helmet>
         <title>Education - Ivan Arias hcoco1</title>
-        <meta name="description" content="A detailed look at my education over the years." />
+        <meta name="description" content="Education - Ivan Arias hcoco1" />
       </Helmet>
 
       {educationData.map((education, index) => (

@@ -9,7 +9,7 @@ export default function Skills() {
     <div className="container">
       <Helmet>
         <title>Skills - Ivan Arias hcoco1</title>
-        <meta name="description" content="An overview of my skills." />
+        <meta name="description" content="Skills - Ivan Arias hcoco1" />
       </Helmet>
 
       <div className="row">
