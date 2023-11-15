@@ -1,65 +1,36 @@
-import React from "react"
+import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from "react-router-dom";
 
-
+const navItems = [
+    { to: "/", label: "Home" },
+    { to: "resume", label: "Resume" },
+    { to: "blog", label: "Blog" },
+    { to: "portafolio", label: "Portfolio" },
+];
 
 export default function Header() {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "none",
-      
         borderRadius: 10,
         padding: 5
-    }
+    };
+
     return (
- 
-            <Nav className="justify-content-center navContainer" activeKey="/home">
-                <div className="navLinks">
+        <Nav className="justify-content-center navContainer" activeKey="/home">
+            {navItems.map((item, index) => (
+                <div className="navLinks" key={index}>
                     <NavLink
-                        to="/"
+                        to={item.to}
                         style={({ isActive }) => isActive ? activeStyles : null}
-                        end
+                        end={index === navItems.length - 1}
                         className="navLinks"
                     >
-                        Home
+                        {item.label}
                     </NavLink>
                 </div>
-                <div className="navLinks">
-                    <NavLink
-                        to="resume"
-                        style={({ isActive }) => isActive ? activeStyles : null}
-                        className="navLinks"
-                    >
-                        Resume
-                    </NavLink>
-
-                </div>
-                <div className="navLinks">
-                    <NavLink
-                        to="blog"
-                        style={({ isActive }) => isActive ? activeStyles : null}
-                        className="navLinks"
-                    >
-                        Blog
-                    </NavLink>
-
-                </div>
-                <div className="navLinks">
-
-                    <NavLink
-                        to="portafolio"
-                        style={({ isActive }) => isActive ? activeStyles : null}
-                        className="navLinks"
-                    >
-                        Portfolio
-                    </NavLink>
-                </div>
-            </Nav>
-   
-    )
+            ))}
+        </Nav>
+    );
 }
-
-
-
-

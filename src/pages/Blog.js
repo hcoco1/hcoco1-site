@@ -8,7 +8,7 @@ export default function Blog() {
     <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
       <Helmet>
         <title>Blog Ivan Arias hcoco1</title>
-        <meta name="description" content="Read the latest articles and updates." />
+        <meta name="description" content="Blog Ivan Arias hcoco1." />
       </Helmet>
       {blogPosts.map((post, index) => (
         <div key={index} className="col">
