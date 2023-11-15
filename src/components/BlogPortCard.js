@@ -11,12 +11,12 @@ export default function BlogPortCard(props) {
                     <div className="d-flex justify-content-between">
                         <h5 className="card-title">{props.title}</h5>
                         {props.badge ? (
-                            <p className="card-subtitle  badge bg-primary text-start mb-5">{props.badge}</p>
+                            <p className="card-subtitle  badge bg-primary text-start mb-3">{props.badge}</p>
                         ) : null}
                     </div>
 
 
-                    <p className="card-subtitle mb-2 text-body-secondary text-start">{props.year}</p>
+                    <p className="card-subtitle mb-2 text-body-secondary text-end">{props.year}</p>
                     <p className="card-text">{props.description}</p>
                     <p className="card-text">{props.intro}</p>
                     <h6 className="card-subtitle mb-2 text-body-secondary">{props.role}</h6>
