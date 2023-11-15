@@ -17,6 +17,7 @@ import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Interest from "./pages/Interest";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 
 
@@ -68,6 +69,12 @@ const router = createBrowserRouter(createRoutesFromElements(
       element={<Portafolio />}
    
     
+    />
+    <Route
+      path="contact"
+      element={<Contact />}
+
+
     />
   </Route>
 ))
