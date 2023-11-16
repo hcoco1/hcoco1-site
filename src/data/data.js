@@ -2,7 +2,7 @@ import { SiFlask, SiRedux, SiAxios, SiStyledcomponents } from "react-icons/si";
 
 export const blogPosts = [
     {
-        src: "https://hcoco1.blog/assets/images/flask-react-python.png",
+        src: "https://blog.hcoco1.com/_astro/photo-1522542550221-31fd19575a2d_Z2nTry9.avif",
         type: 'Coding',
         title: "Building a Navigation Bar",
         year: "2023-10-07",

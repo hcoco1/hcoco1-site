@@ -160,7 +160,7 @@ function Contact() {
 
     return (
         <div style={formContainerStyle}>
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             {!submitted ? (
                 <form onSubmit={onSubmit}>
                     <div style={formGroupStyle}>
