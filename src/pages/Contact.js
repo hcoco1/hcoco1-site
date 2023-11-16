@@ -80,6 +80,7 @@ const Contact = () => {
 export default Contact; */
 
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 
 function Contact() {
     const [submitted, setSubmitted] = useState(false);
@@ -160,6 +161,10 @@ function Contact() {
 
     return (
         <div style={formContainerStyle}>
+            <Helmet>
+                <title>Contact</title>
+                <meta name="description" content="Contact - Ivan Arias hcoco1" />
+            </Helmet>
             <h2>Contact Me</h2>
             {!submitted ? (
                 <form onSubmit={onSubmit}>

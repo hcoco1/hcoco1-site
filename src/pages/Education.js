@@ -8,7 +8,7 @@ export default function Education() {
   return (
     <div className="row row-cols-1 row-cols-md-2 g-4" style={{ marginBottom: '40px' }}>
       <Helmet>
-        <title>Education - Ivan Arias hcoco1</title>
+        <title>Education</title>
         <meta name="description" content="Education - Ivan Arias hcoco1" />
       </Helmet>
 

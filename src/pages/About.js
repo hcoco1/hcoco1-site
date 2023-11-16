@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="card text-bg-light border-secondary  mb-3">
             <Helmet>
-                <title>About Me - Ivan Arias hcoco1 </title>
+                <title>About Me</title>
                 <meta name="description" content="Learn more about my personal and professional journey." />
             </Helmet>
             <div className="row g-0">

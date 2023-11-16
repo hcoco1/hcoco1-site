@@ -10,7 +10,7 @@ export default function Home() {
   const sortedBlogPosts = blogPosts.slice().sort((a, b) => b.year - a.year);
   const sortedPortafolioBlogPosts = portafolio_Posts.slice().sort((a, b) => b.year - a.year);
 
-  // Get the latest three blog posts
+  // Get the latest two blog posts
   const lastThreePosts = sortedBlogPosts.slice(0, 2);
   const lastThreePortafolioPosts = sortedPortafolioBlogPosts.slice(0, 2);
 
@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className="container mt-3 mb-3">
         <Helmet>
-          <title>Ivan Arias - Home</title>
+          <title>Home</title>
           <meta name="description" content="Ivan Arias Website. " />
         </Helmet>
 

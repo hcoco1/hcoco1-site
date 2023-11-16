@@ -8,7 +8,7 @@ export default function Blog() {
     return (
         <div className="row row-cols-1 row-cols-md-2 g-4 mt-3 mb-3">
             <Helmet>
-                <title>Portafolio Ivan Arias hcoco1 </title>
+                <title>Portafolio</title>
                 <meta name="description" content="Portafolio Ivan Arias." />
             </Helmet>
             {portafolio_Posts.map((post, index) => (

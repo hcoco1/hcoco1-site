@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="container">
       <Helmet>
-        <title>Skills - Ivan Arias hcoco1</title>
+        <title>Skills</title>
         <meta name="description" content="Skills - Ivan Arias hcoco1" />
       </Helmet>
 
